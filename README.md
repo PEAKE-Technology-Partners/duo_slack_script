@@ -15,3 +15,14 @@ This python script finds a user named "PeakeAdmin" and checks to see if the user
 FYI, this is a test envoriment and has access to nothing and I have revoked the API keys!
 
 
+Instructions:
+You will need to git clone,
+https://github.com/duosecurity/duo_client_python.git
+
+and then put the peake.py file in the "examples" folder.
+
+Then Modifiy the duo.sh to point to the folder's path where you downloaded the duo_client folder. 
+
+Modify peake.py with the correct API keys for Duo and Slack. 
+
+

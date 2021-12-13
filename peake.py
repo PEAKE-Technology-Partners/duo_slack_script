@@ -15,7 +15,7 @@ message = ''
 # Sends out a new message with Client Name and Status through a Web Hook
 def slack_message():
     if __name__ == '__main__':
-        url = "https://hooks.slack.com/services/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"
+        url = "Slack URL"
         title = 'Duo Notification Message'
         slack_data = {
             "username": "Duo Bot",
@@ -44,9 +44,9 @@ def slack_message():
 
 # Configuration for Duo API
 admin_api = duo_client.Admin(
-    ikey='DIH7Y8NFGNLMHOOWBDGQ',
-    skey='zRkmZIYgRxyzOE5L5Ggy3wVgMXajZbu63hfGrfZf',
-    host='api-10b3d17a.duosecurity.com',
+    ikey='Duo Key',
+    skey='Duo Key',
+    host='Duo API Endpoint URL',
 )
 
 # Retrieve user info and name from API:

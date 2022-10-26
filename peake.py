@@ -55,6 +55,6 @@ settings = admin_api.get_settings()
 
 # Goes through all users calls slack_message when peakeadmin is in bypass.
 for user in users:
-    if 'bypass' in user['status'] and 'peakeadmin' in user['username']:
+    if 'bypass' in user['status'] and 'admin_user_here' in user['username']:
         message = (user['username'] + " in " + settings['name'] + " is in " + user['status'])
         slack_message()

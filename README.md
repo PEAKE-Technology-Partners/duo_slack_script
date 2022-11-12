@@ -1,5 +1,4 @@
 Hello There,
-This is a test Repo for my Python Script.
 
 Well, we have all done it. We put a user in Bypass for 2FA and it weakens our security. This script will alert you when a user is on Bypass. In our case, a user 
 is on Bypass for troubleshooting and we forgot to put then back on Active in the Duo admin portal. 

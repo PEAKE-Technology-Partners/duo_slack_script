@@ -8,7 +8,7 @@ You can have this script run periodically by using a cron tab.
 The duo.sh will create a python virtual env and import the reqired API's from Duo and Slack. 
 
 TLDR:
-This python script finds a user named "PeakeAdmin" and checks to see if the user is on bypass, then sends a message as a slack webhook. 
+This python script finds a user that you specify and checks to see if the user is on bypass, then sends a message as a slack webhook. 
 
 
 FYI, this is a test envoriment and has access to nothing and I have revoked the API keys!
